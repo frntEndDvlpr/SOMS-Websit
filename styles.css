@@ -106,7 +106,7 @@ video {
 }
 .about-us-text {
   width: 50%;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #7f8d61;
   font-style: italic;
 }
@@ -266,10 +266,12 @@ video {
   justify-content: center;
 }
 .iso {
+  padding-bottom: 1rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 50%;
+  border-bottom: #a5d028 solid 1px;
 }
 .iso img {
   max-width: 100%;
@@ -293,7 +295,6 @@ p.hero {
 }
 
 .client-grid {
-  width: 80%;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   gap: 10px; /* Adjust the spacing between items */
