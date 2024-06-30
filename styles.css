@@ -15,10 +15,10 @@ nav {
   left: 0;
   width: 98%;
   background-color: rgba(
-    0,
-    0,
-    0,
-    0.349
+    161,
+    159,
+    159,
+    0.582
   ); /* Semi-transparent black background */
   color: #fff;
   z-index: 1; /* Ensure the navigation bar is on top */
@@ -29,7 +29,7 @@ nav {
 }
 
 .logo img {
-  max-height: 70px;
+  max-height: 50px;
   padding-left: 1rem;
 }
 
@@ -56,7 +56,7 @@ nav {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 video {
@@ -139,7 +139,7 @@ video {
   border-radius: 10px;
   box-shadow: 0px 0px 50px #4246343e;
   color: #354807;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 .title-text p {
   width: 80%;
@@ -162,7 +162,7 @@ video {
 }
 .manpower-text {
   width: 30%;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   border-right: #333 solid 2px;
   text-align: justify;
   padding: 1rem;
@@ -176,6 +176,7 @@ video {
 }
 .more {
   color: rgb(240, 140, 46);
+  font-size: 1rem;
 }
 .manpower {
   display: flex;
@@ -198,7 +199,7 @@ video {
 }
 .be-partner-text {
   width: 30%;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   text-align: justify;
   border-left: #333 solid 2px;
   padding-left: 1rem;
@@ -220,14 +221,13 @@ video {
 }
 .triangile-container {
   width: 80%;
-  height: 250px;
+  height: 200px;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 0px 50px #4246343e;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-size: 1.5rem;
 }
 .triangile-container h2 {
   color: #354807;
@@ -236,12 +236,12 @@ video {
   color: #7f8d61;
 }
 .bi-folder-plus {
-  font-size: 50px;
+  font-size: 30px;
   color: #a5d028;
   margin-right: 1rem;
 }
 .bi-chevron-double-up {
-  font-size: 50px;
+  font-size: 30px;
   color: #a5d028;
   margin-right: 1rem;
 }
@@ -292,11 +292,26 @@ p.hero {
   margin-left: 2%;
 }
 
+.client-grid {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px; /* Adjust the spacing between items */
+  justify-items: center; /* Center horizontally */
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.client-grid img {
+  width: 150px;
+  height: 80px;
+}
+
 footer {
   background-color: #0d0c20;
   color: #fff;
-  text-align: center;
   bottom: 0;
+  font-size: 0.7rem;
   width: 100%;
   height: 25rem;
   display: flex;
@@ -312,8 +327,8 @@ footer {
   margin-right: 1rem;
 }
 footer img {
-  width: 14rem;
-  height: 8rem;
+  width: 100px;
+  height: 100px;
 }
 .social-media i {
   margin-right: 1rem;
@@ -321,6 +336,10 @@ footer img {
 .jsrs {
   padding-left: 1rem;
   border-left: #fff solid 1px;
+}
+.jsrs img {
+  width: 250px;
+  height: 30px;
 }
 .website-map {
   padding-left: 1rem;
