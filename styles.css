@@ -13,10 +13,10 @@ nav {
   left: 0;
   width: 98%;
   background-color: rgba(
-    0,
-    0,
-    0,
-    0.349
+    255,
+    255,
+    255,
+    0.849
   ); /* Semi-transparent black background */
   color: #fff;
   z-index: 1; /* Ensure the navigation bar is on top */
