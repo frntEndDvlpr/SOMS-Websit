@@ -237,9 +237,9 @@ video {
 }
 .square {
   background-color: #fff;
-  width: 15rem;
-  height: 10rem;
-  border-radius: 5px;
+  width: 14rem;
+  height: 13rem;
+  border-radius: 7px;
   border: #a6d02873 solid 0.5px;
   padding-top: 1rem;
   padding-left: 1rem;
