@@ -249,7 +249,7 @@ video {
 .square:hover {
   margin-bottom: 5rem;
 }
-.bi-check2-circle {
+.bi-list-check {
   font-size: 2rem;
   color: rgb(240, 140, 46);
   margin-right: 1rem;
@@ -259,12 +259,12 @@ video {
   color: rgb(240, 140, 46);
   margin-right: 1rem;
 }
-.bi-folder-plus{
+.bi-folder-plus {
   font-size: 2rem;
   color: rgb(240, 140, 46);
   margin-right: 1rem;
 }
-}
+
 .image-gallery-container {
   margin: 7rem;
 }
@@ -288,6 +288,7 @@ video {
   width: 100%;
   background-color: #fff;
   padding: 3rem;
+  height: 30vb;
 }
 .iso {
   width: 50%;
